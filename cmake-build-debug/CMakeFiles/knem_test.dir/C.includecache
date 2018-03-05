@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alex/Projects/knem-test/main.c
+stdio.h
+-
+stdlib.h
+-
+knem_io.h
+-
+fcntl.h
+-
+string.h
+-
+memory.h
+-
+sys/mman.h
+-
+errno.h
+-
+
+/opt/knem/include/knem_io.h
+linux/ioctl.h
+-
+linux/types.h
+-
+sys/ioctl.h
+-
+stdint.h
+-
+
